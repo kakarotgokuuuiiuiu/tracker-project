@@ -34,8 +34,8 @@ function CheckInForm({ habitId, onCheckinSuccess }) {
       }
 
     } catch (err) {
-      console.error('❌ Check-in failed:', err);
-      setMessage('❌ Check-in failed.');
+      console.error(' Check-in failed:', err);
+      setMessage(' Check-in failed.');
     }
   };
 
@@ -54,7 +54,7 @@ function CheckInForm({ habitId, onCheckinSuccess }) {
         onChange={(e) => setNote(e.target.value)}
       />
       <button type="submit">Check In</button>
-      {message && <p style={{ color: message.includes('✅') ? 'green' : 'red' }}>{message}</p>}
+      {message && <p style={{ color: message.includes('') ? 'green' : 'red' }}>{message}</p>}
     </form>
   );
 }
