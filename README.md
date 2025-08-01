@@ -70,11 +70,8 @@ django-cors-headers
 ```bash
 cd frontend
 npm install
-```
+`
 
-### 2. Tailwind CSS Setup
-
-```
 
 ```
 
