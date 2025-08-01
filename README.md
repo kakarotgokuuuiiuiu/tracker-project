@@ -26,7 +26,7 @@ habit hero 2/
 │   ├── public/
 │   ├── src/
 │      ├── components/
-│      ├── pages/
+│      ├
 │      └── App.jsx
 │   
 └── README.md
@@ -38,7 +38,7 @@ habit hero 2/
 
 ### 1. Create virtual environment and install dependencies
 
-```bash
+
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 ### 2. Run migrations and start server
 
-```bash
+
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
@@ -63,11 +63,11 @@ django-cors-headers
 
 ---
 
-## 🎨 Frontend Setup (ReactJS)
+##  Frontend Setup (ReactJS)
 
 ### 1. Navigate and install dependencies
 
-```bash
+
 cd frontend
 npm install
 `
@@ -77,7 +77,7 @@ npm install
 
 ### 3. Start Frontend
 
-```bash
+
 npm run dev  # or npm start
 ```
 
