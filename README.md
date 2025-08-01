@@ -99,4 +99,6 @@ recharts
 | DELETE | `/api/habits/<id>/`   | Delete a habit   |
 | POST   | `/api/checkin/`       | Log a check-in   |
 
+[API documentation, click here](https://documenter.getpostman.com/view/47231714/2sB3BALXjt#a8cf846d-bf76-4104-bb6a-e3a512bf639d)
+
 ---
