@@ -13,20 +13,19 @@ Habit Hero is a full-stack habit tracker app built using **Django** (backend) an
 
 ## 🏗 Project Structure
 
-habit hero 2/
-├── habit_hero/
+habit-hero-2/
+├── habit_hero/                 # Django backend root
 │   ├── manage.py
-│   ├── tracker/          # Django app for habit logic
-│   ├── users/            # User auth
-│   └── ...
-├── frontend/
+│   ├── tracker/                # Habit tracking app (models, views, API)
+│   ├── users/                  # User authentication and registration
+│
+├── frontend/                   # React frontend root
 │   ├── public/
 │   ├── src/
-│      ├── components/
-│      ├
-│      └── App.jsx
-│   
-└── README.md
+│   │   ├── components/         # React components
+│   │   └── App.jsx             # Main React component
+│
+└── README.md                   # Project instructions and setup
 
 
 ##🧪 Backend Setup (Django)
