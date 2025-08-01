@@ -1,0 +1,14 @@
+
+BACKEND:
+
+Django>=4.2,<5.0
+djangorestframework
+django-cors-headers
+python
+
+
+
+FRONTEND:
+npm install react-router-dom axios
+npm install recharts
+

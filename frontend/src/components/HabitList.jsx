@@ -146,7 +146,7 @@ function HabitList({ habits, refreshHabits }) {
 
                     <div style={{ marginTop: '0.5rem' }}>
                       <button onClick={() => handleEdit(habit)}> Edit</button>
-                      <button onClick={() => handleDelete(habit.id)} style={{ marginLeft: '0.5rem', color: 'red' }}>
+                      <button onClick={() => handleDelete(habit.id)} style={{ marginLeft: '0.5rem', color: 'white' }}>
                          Delete
                       </button>
                     </div>
